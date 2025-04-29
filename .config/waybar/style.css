@@ -1,0 +1,53 @@
+@define-color foreground #d3c6aa;
+@define-color foreground-inactive #56635f;
+@define-color background #1e2326;
+@define-color background-active #a7c080;
+@define-color background-inactive #56635f;
+
+* {
+  font-family: AdwaitaMonoNerdFont;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+#waybar {
+  color: @foreground;
+  background-color: @background;
+}
+
+#workspaces button {
+  color: @foreground;
+  border-radius: 0; 
+}
+
+#workspaces button * {
+  font-size: 10px;
+}
+
+#workspaces button.empty {
+  color: @foreground-inactive;
+}
+
+#workspaces button.active {
+  background: linear-gradient(transparent,@background-active);
+}
+
+#workspaces button.active.empty {
+  background: linear-gradient(transparent,@background-inactive)
+}
+
+#memory,
+#temperature {
+  padding-left: 1em
+}
+
+#wireplumber,
+#battery,
+#backlight,
+#language,
+#network,
+#bluetooth,
+#tray {
+    padding-right: 1em 
+}
