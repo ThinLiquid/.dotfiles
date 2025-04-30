@@ -12,6 +12,9 @@
 - `zsh-autosuggestions`
 - `zsh-syntax-highlighting`
 - `starship`
+- `nemo`
+- `hyprshot`
+- `hyprpicker`
 ### fonts
 - `Adwaita Sans`
 - `AdwaitaMono Nerd Font`
