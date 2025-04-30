@@ -10,3 +10,6 @@
 - `waybar`
 - `zsh`
 - `starship`
+### fonts
+- `Adwaita Sans`
+- `AdwaitaMono Nerd Font`
