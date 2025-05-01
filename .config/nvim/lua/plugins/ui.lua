@@ -220,4 +220,9 @@ return {
 			require("alpha").setup(startify.config)
 		end,
 	},
+
+  {
+    "OXY2DEV/markview.nvim",
+    lazy = false
+  },
 }
