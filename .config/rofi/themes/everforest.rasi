@@ -22,7 +22,7 @@
 }
 
 window {
-    location:   center;
+    location: center;
     anchor: center;
     transparency: "screenshot";
     padding: 10px;
