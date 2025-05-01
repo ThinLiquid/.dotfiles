@@ -15,6 +15,7 @@
 - `nemo`
 - `hyprshot`
 - `hyprpicker`
+- `syshud`
 ### fonts
 - `Adwaita Sans`
 - `AdwaitaMono Nerd Font`
