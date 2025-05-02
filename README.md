@@ -16,6 +16,7 @@
 - `hyprshot`
 - `hyprpicker`
 - `syshud`
+- `hyprswitch`
 ### fonts
 - `Adwaita Sans`
 - `AdwaitaMono Nerd Font`
