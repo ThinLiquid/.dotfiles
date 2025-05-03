@@ -10,6 +10,9 @@ return {
 				-- Your config here
 			})
 		end,
+		init = function()
+			vim.cmd("colorscheme everforest")
+		end,
 	},
 
 	{ "nvim-tree/nvim-web-devicons" },
@@ -115,16 +118,6 @@ return {
 	},
 
 	{
-		"lukas-reineke/indent-blankline.nvim",
-		main = "ibl",
-		opts = {
-			whitespace = {
-				remove_blankline_trail = false,
-			},
-		},
-	},
-
-	{
 		"saghen/blink.cmp",
 		dependencies = { "rafamadriz/friendly-snippets" },
 		version = "1.*",
@@ -160,7 +153,7 @@ return {
 
 			cmdline = {
 				keymap = {
-					["<Tab>"] = { "show", "accept" },
+				  preset = 'inherit'
 				},
 				completion = {
 					menu = {
@@ -184,30 +177,6 @@ return {
 	},
 
 	{
-		"mcauley-penney/visual-whitespace.nvim",
-		config = true,
-		event = "ModeChanged *:[vV\22]", -- optionally, lazy load on entering visual mode
-		opts = {
-			enabled = true,
-			highlight = { link = "Visual", default = false },
-			list_chars = {
-				space = "·",
-				tab = "→ ",
-				nbsp = "␣",
-			},
-			fileformat_chars = {
-				unix = "↲",
-				mac = "←",
-				dos = "↙",
-			},
-			ignore = {
-				filetypes = {},
-				buftypes = {},
-			},
-		},
-	},
-
-	{
 		"goolord/alpha-nvim",
 		-- dependencies = { 'echasnovski/mini.icons' },
 		dependencies = { "nvim-tree/nvim-web-devicons", "nvim-lua/plenary.nvim" },
@@ -220,9 +189,4 @@ return {
 			require("alpha").setup(startify.config)
 		end,
 	},
-
-  {
-    "OXY2DEV/markview.nvim",
-    lazy = false
-  },
 }

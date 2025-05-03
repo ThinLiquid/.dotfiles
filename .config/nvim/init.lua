@@ -25,5 +25,3 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.diagnostic.config({ virtual_text = true })
 
 require("config.lazy")
-
-vim.cmd("colorscheme everforest")

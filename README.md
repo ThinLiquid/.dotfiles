@@ -10,6 +10,7 @@
 - `cliphist`
 - `xfce-polkit`
 - `rofimoji`
+- `gtklock`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
