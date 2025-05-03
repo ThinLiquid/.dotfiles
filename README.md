@@ -7,8 +7,9 @@
 - `hyprshot`
     - `hyprpicker`
 - `syshud`
-- `hyprswitch`
 - `cliphist`
+- `xfce-polkit`
+- `bemoji`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
