@@ -9,7 +9,7 @@
 - `syshud`
 - `cliphist`
 - `xfce-polkit`
-- `bemoji`
+- `rofimoji`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
