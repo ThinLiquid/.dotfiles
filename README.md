@@ -1,22 +1,23 @@
 # dotfiles
-## install dependencies
-- `stow`
-- `git`
 ## stuff
 - `hyprland`
-- `kitty`
-- `neovim`
+### desktop
 - `rofi` (or `rofi-wayland`)
 - `waybar`
+- `hyprshot`
+    - `hyprpicker`
+- `syshud`
+- `hyprswitch`
+- `cliphist`
+### shell
 - `zsh`
 - `zsh-autosuggestions`
 - `zsh-syntax-highlighting`
 - `starship`
+### applications
 - `nemo`
-- `hyprshot`
-- `hyprpicker`
-- `syshud`
-- `hyprswitch`
+- `kitty`
+- `neovim`
 ### fonts
 - `Adwaita Sans`
 - `AdwaitaMono Nerd Font`
