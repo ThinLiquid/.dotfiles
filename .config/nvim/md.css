@@ -1,0 +1,84 @@
+main {
+  background: unset;
+}
+
+@page {
+  padding: 0.25in 0.5in;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 300px;
+  width: auto;
+}
+
+.markdown-body {
+  border: none;
+}
+
+.anchor {
+  display: none;
+}
+
+body {
+  background: #2D353B;
+  --foreground-color: #D3C6AA;
+  font-family: 'AdwaitaMono Nerd Font';
+ 
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+code {
+  font-size: 16px;
+  line-height: 20px;
+  color: #A7C080;
+  background: #434E57;
+  padding: 0 9.61px;
+}
+
+h1 {
+  color: #E67E80;
+  background: #474045;
+
+  &::before { content: '\00a0󰼏\00a0'; }
+}
+
+h2 {
+  color: #E69875;
+  background: #454142;
+
+  &::before { content: '\00a0\00a0󰎨\00a0'; }
+}
+
+h3 {
+  color: #DBBC7F;
+  background: #444745; 
+
+  &::before { content: '\00a0\00a0\00a0󰼑\00a0'; }
+}
+
+h4 {
+  color: #A7C080;
+  background: #3B4644;
+
+  &::before { content: '\00a0\00a0\00a0\00a0󰎲\00a0'; }
+}
+
+h5 {
+  color: #7FBBB3;
+  background: #37464B;
+
+  &::before { content: '\00a0\00a0\00a0\00a0\00a0󰼓\00a0'; }
+}
+
+h6 {
+  color: #D699B6;
+  background: #40414B;
+
+  &::before { content: '\00a0\00a0\00a0\00a0\00a0\00a0󰎴\00a0'; }
+}
