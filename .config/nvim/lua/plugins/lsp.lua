@@ -14,6 +14,8 @@ return {
 			servers = {
 				lua_ls = {},
 				ts_ls = {},
+        astro = {},
+        css = {}
 			},
 		},
 

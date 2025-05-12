@@ -11,7 +11,7 @@ return {
 			})
 		end,
 		init = function()
-			vim.cmd("colorscheme everforest")
+		  vim.cmd("colorscheme everforest")
 		end,
 	},
 

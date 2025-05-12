@@ -65,7 +65,7 @@ listview {
   border: 0px 1px 1px 1px;
   background-color: @bgalt;
   lines: 10;
-  columns: 3;
+  columns: 2;
 }
 
 element {
