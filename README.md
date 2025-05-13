@@ -2,6 +2,7 @@
 ## stuff
 - `hyprland`
 ### desktop
+- `uwsm`
 - `rofi` (or `rofi-wayland`)
 - `waybar`
 - `hyprshot`
@@ -20,6 +21,7 @@
 - `nemo`
 - `kitty`
 - `neovim`
+- `firefox`
 ### fonts
 - `Adwaita Sans`
 - `AdwaitaMono Nerd Font`

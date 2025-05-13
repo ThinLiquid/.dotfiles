@@ -1,49 +1,45 @@
-/*******************************************************************************
- * ROFI SQUARED THEME USING THE EVERFOREST PALETTE 
- * User                 : LR-Tech               
- * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
- *******************************************************************************/
-
 * {
     font:   "AdwaitaMonoNerdFont 11";
 
-    bgdark:     #2d353b;
-    bgalt:     #374145;
-    bggreen:     #a7c080;
-    fg0:     #A7C080;
+  bg: #374145;
+  bggreen: #a7c080;
+  fg: #A7C080;
 
-    accent-color:     #A7C080;
-    urgent-color:     #DBBC7F;
+  accent-color:     #A7C080;
+  urgent-color:     #DBBC7F;
 
-    background-color:   transparent;
-    text-color:         @fg0;
+  background-color:   transparent;
+  text-color:         @fg;
 
-    transparent: rgba(0,0,0,0.5);
+  transparent: rgba(0,0,0,0.5);
 }
 
-window { 
-    location: center; 
+window {
+    location: north;
     transparency: "real";
     border: 0px;
+    width: 100%;
     spacing: 0;
     children: [mainbox];
     orientation: horizontal;
 }
 
 mainbox {
-    spacing: 0;
-    children: [ inputbar, message, listview, mode-switcher ];
+    padding: 8px;
+    background-color: @bg;
+    spacing: 0px;
+    children: [ inputbar, message, listview /*, mode-switcher*/ ];
 }
 
 message {
     color: @bggreen;
-    padding: 5px; 
-    background-color: @bgdark;
+    padding: 5px;
+    background-color: @bg;
 }
 
 inputbar, mode-switcher {
-    color: @fg0;
-    background-color:   @bgdark;
+    color: @fg;
+    background-color:   @bg;
 }
 
 inputbar {
@@ -51,34 +47,32 @@ inputbar {
 }
 
 entry, prompt, case-indicator {
-    text-font: inherit;
-    text-color:inherit;
+  text-font: inherit;
+  text-color:inherit;
 }
 
 prompt {
-    margin: 0px 0.5em 0em 0em ;
-    border: 0 0 1px 0;
-    border-color: @fg0;
+  enabled: false;
+  margin: 0px 0.5em 0em 0em;
 }
 
 listview {
   border: 0px 1px 1px 1px;
-  background-color: @bgalt;
-  lines: 10;
-  columns: 2;
+  background-color: @bg;
+  lines: 5;
 }
 
 element {
   padding: 5px;
   vertical-align: 0.5;
   background-color: transparent;
-  color: @fg0;
+  color: @fg;
   text-color: #d3c6aa;
 }
 
 element selected.normal {
 	background-color: @accent-color;
-	text-color: @bgalt;
+	text-color: @bg;
 }
 
 element-text, element-icon {
@@ -92,8 +86,7 @@ element-text {
 
 button {
     padding: 6px;
-    color: @fg0;
+    color: @fg;
     horizontal-align: 0.5;
     border-color: @bggreen;
 }
-
