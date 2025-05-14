@@ -15,7 +15,7 @@ return {
 				lua_ls = {},
 				ts_ls = {},
 				astro = {},
-				css_lsp = {},
+				cssls = {},
 			},
 		},
 

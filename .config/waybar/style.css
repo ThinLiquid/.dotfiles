@@ -5,10 +5,11 @@
 @define-color background-inactive #56635f;
 
 * {
+  all: unset;
   font-family: AdwaitaMonoNerdFont;
   font-size: 12px;
   padding: 0;
-  margin: 0;
+  margin: 0; 
 }
 
 #waybar {
@@ -18,7 +19,8 @@
 
 #workspaces button {
   color: @foreground;
-  border-radius: 0; 
+  border-radius: 0;
+  padding: 0 4px;
 }
 
 #workspaces button * {
@@ -39,7 +41,7 @@
 
 #memory,
 #temperature {
-  padding-left: 1em
+  padding-left: 8px;
 }
 
 #wireplumber,
@@ -49,5 +51,5 @@
 #network,
 #bluetooth,
 #tray {
-    padding-right: 1em 
+    padding-right: 8px; 
 }
