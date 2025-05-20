@@ -1,19 +1,16 @@
 return {
-	{
-		"neanias/everforest-nvim",
-		version = false,
-		lazy = false,
-		priority = 1000, -- make sure to load this before all the other start plugins
-		-- Optional; default configuration will be used if setup isn't called.
-		config = function()
-			require("everforest").setup({
-				-- Your config here
-			})
-		end,
-		init = function()
-		  vim.cmd("colorscheme everforest")
-		end,
-	},
+  {
+    'sainnhe/edge',
+    lazy = false,
+    priority = 1000,
+    config = function()
+      -- Optionally configure and load the colorscheme
+      -- directly inside the plugin declaration.
+      vim.g.edge_enable_italic = true
+      vim.g.edge_style = 'default'
+      vim.cmd.colorscheme('edge')
+    end
+  },
 
 	{ "nvim-tree/nvim-web-devicons" },
 	{

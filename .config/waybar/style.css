@@ -1,29 +1,34 @@
-@define-color foreground #d3c6aa;
-@define-color foreground-inactive #56635f;
-@define-color background #1e2326;
-@define-color background-active #a7c080;
+@define-color foreground #4b505b;
+@define-color foreground-active #fafafa;
+@define-color foreground-inactive #8790a0;
+@define-color background #dde2e7;
+@define-color background-active #6996e0;
 @define-color background-inactive #56635f;
 
 * {
-  all: unset;
-  font-family: AdwaitaMonoNerdFont;
+  font-family: GeistMonoNerdFont;
   font-size: 12px;
   padding: 0;
-  margin: 0; 
+  margin: 0;
+  border: none;
+  outline: none;
 }
 
 #waybar {
   color: @foreground;
-  background-color: @background;
+  background: alpha(@background, 0);
 }
 
 #workspaces button {
+  all: unset;
   color: @foreground;
   border-radius: 0;
-  padding: 0 4px;
+  padding: 0 6px;
+  font-weight: bold;
 }
 
 #workspaces button * {
+  all: unset;
   font-size: 10px;
 }
 
@@ -32,11 +37,12 @@
 }
 
 #workspaces button.active {
-  background: linear-gradient(transparent,@background-active);
+  background: @background-active;
+  color: @foreground-active;
 }
 
 #workspaces button.active.empty {
-  background: linear-gradient(transparent,@background-inactive)
+  background: @background-inactive;
 }
 
 #memory,

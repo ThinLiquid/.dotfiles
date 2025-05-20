@@ -1,104 +1,20 @@
+# Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = """
-[](color_bg0)\
-$os\
-$username\
-[](bg:color_green fg:color_bg0)\
-$directory\
-[](fg:color_green bg:color_blue)\
-$git_branch\
-$git_status\
-[](fg:color_blue bg:color_bg1)\
-$time\
-[](fg:color_bg1)\
-$line_break$character"""
+format = "\\[$username@$hostname $directory\\]% "
 
-palette = 'everforest'
-
-[palettes.everforest]
-color_fg0   = '#232A2E'
-color_fg1   = '#D3C6AA'
-color_bg0   = '#232A2E'
-color_bg1   = '#343F44'
-color_bg3   = '#475258'
-color_blue  = '#83C092'
-color_aqua  = '#7FBBB3'
-color_green = '#A7C080'
-color_orange= '#E69875'
-color_purple= '#D699B6'
-color_red   = '#E67E80'
-color_yellow= '#DBBC7F'
-
-[os]
-disabled = false
-# style = "bg:color_orange fg:color_fg0"
-style = "bg:color_bg0 fg:color_fg1"
-
-[os.symbols]
-Windows = "󰍲"
-Ubuntu = "󰕈"
-SUSE = ""
-Raspbian = "󰐿"
-Mint = "󰣭"
-Macos = "󰀵"
-Manjaro = ""
-Linux = "󰌽"
-Gentoo = "󰣨"
-Fedora = "󰣛"
-Alpine = ""
-Amazon = ""
-Android = ""
-Arch = "󰣇"
-Artix = "󰣇"
-CentOS = ""
-Debian = "󰣚"
-Redhat = "󱄛"
-RedHatEnterprise = "󱄛"
+# Inserts a blank line between shell prompts
+add_newline = false
 
 [username]
+disabled = false
 show_always = true
-style_user = "bg:color_bg0 fg:color_fg1"
-# style_user = "bg:color_orange fg:color_fg0"
-style_root = "bg:color_orange fg:color_fg0"
-format = '[ $user ]($style)'
+format = '$user'
+
+[hostname]
+disabled = false
+ssh_only = false
+format = '$ssh_symbol$hostname'
 
 [directory]
-style = "fg:color_fg0 bg:color_green"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
-
-[directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = "󰝚 "
-"Pictures" = " "
-"Developer" = "󰲋 "
-
-[git_branch]
-symbol = ""
-style = "bg:color_aqua"
-format = '[[ $symbol $branch ](fg:color_fg0 bg:color_blue)]($style)'
-
-[git_status]
-style = "bg:color_aqua"
-format = '[[($all_status$ahead_behind )](fg:color_fg0 bg:color_blue)]($style)'
-
-[time]
-disabled = false
-time_format = "%R"
-style = "bg:color_bg1 fg:color_fg1"
-format = '[[  $time ](fg:color_fg1 bg:color_bg1)]($style)'
-
-[line_break]
-disabled = false
-
-[character]
-disabled = false
-success_symbol = '[](bold fg:color_green)'
-error_symbol = '[](bold fg:color_red)'
-vimcmd_symbol = '[](bold fg:color_green)'
-vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
-vimcmd_replace_symbol = '[](bold fg:color_purple)'
-vimcmd_visual_symbol = '[](bold fg:color_yellow)'
+format = '$path$read_only'
