@@ -1,14 +1,14 @@
 * {
   font:   "GeistMonoNerdFont 11";
 
-  bg: #fafafa;
-  fg: #4b505b;
+  bg: #040a12;
+  fg: #dadcdd;
 
-  accent-color: #6996e0;
-  urgent-color: #d05858;
+  accent-color: #6dacff;
+  urgent-color: #ff6daf;
 
   background-color: transparent;
-  text-color: @fg;
+  color: @fg;
 }
 
 window {

@@ -15,7 +15,7 @@ return {
 		config = function()
       vim.g.mkdp_echo_preview_urbunl = 1
 			vim.g.mkdp_filetypes = { "markdown" }
-      vim.g.mkdp_browser = '/usr/bin/google-chrome-stable'
+      vim.g.mkdp_browser = '/usr/bin/thorium-browser'
       vim.g.mkdp_preview_options = {
         disable_filename = 1,
       }

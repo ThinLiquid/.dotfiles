@@ -21,7 +21,7 @@
 - `nemo`
 - `kitty`
 - `neovim`
-- `firefox`
+- `thorium-browser-bin`
 ### fonts
 - `Adwaita Sans`
 - `AdwaitaMono Nerd Font`

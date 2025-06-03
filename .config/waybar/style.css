@@ -1,9 +1,9 @@
-@define-color foreground #4b505b;
-@define-color foreground-active #fafafa;
-@define-color foreground-inactive #8790a0;
-@define-color background #dde2e7;
-@define-color background-active #6996e0;
-@define-color background-inactive #56635f;
+@define-color foreground #dadcdd;
+@define-color foreground-active #6dacff;
+@define-color foreground-inactive #dadcdd;
+@define-color background #040a12;
+@define-color background-active #1b222a;
+@define-color background-inactive #1b222a;
 
 * {
   font-family: GeistMonoNerdFont;
@@ -16,7 +16,7 @@
 
 #waybar {
   color: @foreground;
-  background: alpha(@background, 0);
+  background: @background;
 }
 
 #workspaces button {

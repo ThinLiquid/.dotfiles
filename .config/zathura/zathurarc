@@ -1,8 +1,16 @@
 # general settings
-set page-padding 0
-
+set page-padding 64
+set adjust-open "best-fit"
 set recolor true
 
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+set zoom-min 10
+set guioptions ""
+
 # color scheme
-include everforest
+include edge-light
 

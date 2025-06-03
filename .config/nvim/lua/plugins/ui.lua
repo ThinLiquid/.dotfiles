@@ -7,11 +7,9 @@ return {
       -- Optionally configure and load the colorscheme
       -- directly inside the plugin declaration.
       vim.g.edge_enable_italic = true
-      vim.g.edge_style = 'default'
       vim.cmd.colorscheme('edge')
     end
-  },
-
+    },
 	{ "nvim-tree/nvim-web-devicons" },
 	{
 		"nvim-tree/nvim-tree.lua",
