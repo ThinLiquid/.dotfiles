@@ -17,6 +17,7 @@ return {
 				astro = {},
 				cssls = {},
 			},
+      inlay_hints = { enabled = true },
 		},
 
 		config = function(_, opts)
@@ -27,6 +28,14 @@ return {
 			end
 		end,
 	},
+  {
+    "MysticalDevil/inlay-hints.nvim",
+    event = "LspAttach",
+    dependencies = { "neovim/nvim-lspconfig" },
+    config = function()
+        require("inlay-hints").setup()
+    end
+  },
 
 	{
 		"stevearc/conform.nvim",

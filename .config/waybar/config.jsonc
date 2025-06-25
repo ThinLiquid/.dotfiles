@@ -1,12 +1,19 @@
 {
     "layer": "top",
-    "position": "bottom",
-    "height": 24,
-    "spacing": 5,
+    "position": "left",
+    "spacing": 8,
+    "margin-left": 8,
+    "margin-top": 8,
+    "margin-bottom": 8,
 
-    "modules-left": ["hyprland/workspaces", "memory", "temperature"],
-    "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "battery", "backlight", "hyprland/language", /*"network", "bluetooth",*/ "tray"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": [],
+    "modules-right": ["wireplumber", "battery", "backlight", "hyprland/language", "tray", "clock"],
+
+    "hyprland/window": {
+      "format": "{}",
+      "rotate": 90
+    },
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -35,16 +42,18 @@
     },
 
     "clock": {
-        "format": "{:%d/%m/%Y | %H:%M}"
+        "format": "{:%H\n%M}"
     },
 
     "wireplumber": {
+        "rotate": 90,
         "format": "󰕾 {volume}%",
         "max-volume": 100,
         "scroll-step": 5
     },
 
     "battery": {
+      "rotate": 90,
         "bat": "BAT0",
         "interval": 60,
         "format": "{icon} {capacity}%",
@@ -52,6 +61,7 @@
     },
 
     "backlight": {
+      "rotate": 90,
         "format": "󰃟 {percent}%"
     },
 

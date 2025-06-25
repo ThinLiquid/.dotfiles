@@ -1,30 +1,27 @@
 @define-color foreground #dadcdd;
 @define-color foreground-active #6dacff;
-@define-color foreground-inactive #dadcdd;
+@define-color foreground-inactive alpha(#B7B9BC,0.5);
 @define-color background #040a12;
-@define-color background-active #1b222a;
-@define-color background-inactive #1b222a;
+@define-color background-active #363D44;
+@define-color background-urgent #FF7920;
 
 * {
   font-family: GeistMonoNerdFont;
   font-size: 12px;
-  padding: 0;
-  margin: 0;
-  border: none;
-  outline: none;
 }
 
 #waybar {
-  color: @foreground;
-  background: @background;
+  color: @foreground; 
+  border-radius: 5px;
+  background: transparent;
 }
 
 #workspaces button {
   all: unset;
   color: @foreground;
-  border-radius: 0;
-  padding: 0 6px;
+  min-height: 24px;
   font-weight: bold;
+  border-radius: 2.5px;
 }
 
 #workspaces button * {
@@ -37,17 +34,12 @@
 }
 
 #workspaces button.active {
-  background: @background-active;
-  color: @foreground-active;
+  background: @foreground-active;
+  color: @background;
 }
 
-#workspaces button.active.empty {
-  background: @background-inactive;
-}
-
-#memory,
-#temperature {
-  padding-left: 8px;
+#workspaces button.urgent {
+  color: @background-urgent;
 }
 
 #wireplumber,
@@ -56,6 +48,28 @@
 #language,
 #network,
 #bluetooth,
-#tray {
-    padding-right: 8px; 
+#tray,
+#clock,
+#workspaces,
+#window {
+    padding: 8px 0;
+    background: @background;
+    min-width: 24px;
+    border-radius: 5px;
+    border: 2px solid @background;
+}
+
+#window {
+  padding-left: 4px;
+  background: alpha(@background, 0.75);
+  border: 2px solid transparent;
+}
+
+#workspaces {
+  padding: 0;
+}
+
+#clock,
+#language {
+  padding: 4px 0;
 }

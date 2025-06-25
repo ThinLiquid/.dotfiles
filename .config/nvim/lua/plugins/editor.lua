@@ -1,16 +1,5 @@
 return {
 	{
-		"OXY2DEV/markview.nvim",
-    branch = "dev",
-		lazy = false,
-		config = function()
-			local presets = require("markview.presets")
-
-			require("markview").setup({})
-		end,
-	},
-
-	{
 		"nvim-treesitter/nvim-treesitter",
 		dependencies = { "OXY2DEV/markview.nvim" },
 		build = ":TSUpdate",
