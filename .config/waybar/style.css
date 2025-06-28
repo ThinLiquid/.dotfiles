@@ -10,6 +10,10 @@
   font-size: 12px;
 }
 
+.modules-center {
+  padding-bottom: 4px;
+}
+
 #waybar {
   color: @foreground; 
   border-radius: 5px;
@@ -60,7 +64,6 @@
 }
 
 #window {
-  padding-left: 4px;
   background: alpha(@background, 0.75);
   border: 2px solid transparent;
 }

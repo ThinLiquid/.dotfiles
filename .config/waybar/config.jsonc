@@ -1,14 +1,15 @@
 {
     "layer": "top",
     "position": "left",
-    "spacing": 8,
-    "margin-left": 8,
-    "margin-top": 8,
-    "margin-bottom": 8,
+    "spacing": 4,
+    "margin-left": 4,
+    "margin-top": 4,
+    "margin-bottom": 4,
+    "width": 20,
 
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": [],
-    "modules-right": ["wireplumber", "battery", "backlight", "hyprland/language", "tray", "clock"],
+    "modules-right": ["wireplumber", "backlight", "battery", "tray", "clock"],
 
     "hyprland/window": {
       "format": "{}",

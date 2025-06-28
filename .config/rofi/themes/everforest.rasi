@@ -12,17 +12,19 @@
 }
 
 window {
-    location: north;
+    location: north west;
     transparency: "real";
     border: 0px;
-    width: 100%;
+    width: 400px;
     spacing: 0;
     children: [mainbox];
     orientation: horizontal;
 }
 
 mainbox {
-    padding: 8px;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 5px;
     background-color: @bg;
     spacing: 0px;
     children: [ inputbar, message, listview /*, mode-switcher*/ ];
@@ -64,6 +66,7 @@ element {
   vertical-align: 0.5;
   background-color: transparent;
   color: @fg;
+  border-radius: 2.5px;
 }
 
 element selected.normal {
