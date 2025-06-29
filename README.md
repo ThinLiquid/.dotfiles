@@ -1,4 +1,6 @@
 # dotfiles
+## color palette
+using my own "ekitai" color scheme
 ## stuff
 - `hyprland`
 ### desktop
@@ -35,5 +37,6 @@
 - *`Colloid-gtk-theme`*
 - *`Colloid-kde`*
 - `kvantum`
+- `kvantum-qt5`
 - `qt5ct`
 - `qt6ct`
