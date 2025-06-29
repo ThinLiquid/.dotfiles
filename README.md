@@ -40,3 +40,5 @@ using my own "ekitai" color scheme
 - `kvantum-qt5`
 - `qt5ct`
 - `qt6ct`
+- `qt5-wayland`
+- `qt6-wayland`
