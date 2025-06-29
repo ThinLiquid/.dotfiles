@@ -18,13 +18,19 @@
 - `zsh-syntax-highlighting`
 - `starship`
 ### applications
-- `nemo`
+- `thunar`
+    - `xarchiver`
+    - `thunar-archive-plugin`
+    - `gvfs`
 - `kitty`
 - `neovim`
+    - `npm`
+    - `nodejs`
 - `thorium-browser-bin`
 ### fonts
-- `Adwaita Sans`
-- `AdwaitaMono Nerd Font`
+- `Geist` (`ttf-geist`)
+- `Geist Mono Nerd Font` (`otf-geist-mono-nerd`)
 ### gtk theme
-- `Colloid-icon-theme` (`./install.sh -s everforest -t green`)
-- `Edge GTK theme` (`sudo ./install.sh --theme blue --color light`)
+- `Colloid-icon-theme`
+- `Colloid-gtk-theme`
+
