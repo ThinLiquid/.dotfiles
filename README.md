@@ -30,7 +30,10 @@
 ### fonts
 - `Geist` (`ttf-geist`)
 - `Geist Mono Nerd Font` (`otf-geist-mono-nerd`)
-### gtk theme
-- `Colloid-icon-theme`
-- `Colloid-gtk-theme`
-
+### theme
+- *`Colloid-icon-theme`*
+- *`Colloid-gtk-theme`*
+- *`Colloid-kde`*
+- `kvantum`
+- `qt5ct`
+- `qt6ct`
