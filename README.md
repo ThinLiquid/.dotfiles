@@ -16,7 +16,12 @@ using my own "ekitai" color scheme
 - `xdg-desktop-portal-hyprland`
 - `rofimoji`
 - `gtklock`
+- `hyprpaper`
 - `swaync`
+- `network-manager-applet`
+- `blueman`
+- `xdg-desktop-portal-gtk`
+- `xdg-desktop-portal-hyprland`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
@@ -35,6 +40,7 @@ using my own "ekitai" color scheme
 ### fonts
 - `Geist` (`ttf-geist`)
 - `Geist Mono Nerd Font` (`otf-geist-mono-nerd`)
+- `Noto Fonts` (`noto-fonts-emoji`, `noto-fonts-cjk`, `noto-fonts`)
 ### theme
 - *`Colloid-icon-theme`*
 - *`Colloid-gtk-theme`*
@@ -45,3 +51,4 @@ using my own "ekitai" color scheme
 - `qt6ct`
 - `qt5-wayland`
 - `qt6-wayland`
+- `nwg-look`
