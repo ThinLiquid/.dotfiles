@@ -14,6 +14,7 @@ using my own "ekitai" color scheme
 - `xfce-polkit`
 - `rofimoji`
 - `gtklock`
+- `hyprpaper`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
