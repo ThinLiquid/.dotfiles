@@ -33,6 +33,7 @@ using my own "ekitai" color scheme
 ### fonts
 - `Geist` (`ttf-geist`)
 - `Geist Mono Nerd Font` (`otf-geist-mono-nerd`)
+- `Noto Fonts` (`noto-fonts-emoji`, `noto-fonts-cjk`, `noto-fonts`)
 ### theme
 - *`Colloid-icon-theme`*
 - *`Colloid-gtk-theme`*
