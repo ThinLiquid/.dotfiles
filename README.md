@@ -12,8 +12,11 @@ using my own "ekitai" color scheme
 - `syshud`
 - `cliphist`
 - `xfce-polkit`
+- `xdg-desktop-portal-gtk`
+- `xdg-desktop-portal-hyprland`
 - `rofimoji`
 - `gtklock`
+- `swaync`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
