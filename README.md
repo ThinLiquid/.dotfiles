@@ -15,6 +15,11 @@ using my own "ekitai" color scheme
 - `rofimoji`
 - `gtklock`
 - `hyprpaper`
+- `swaync`
+- `network-manager-applet`
+- `blueman`
+- `xdg-desktop-portal-gtk`
+- `xdg-desktop-portal-hyprland`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
@@ -44,3 +49,4 @@ using my own "ekitai" color scheme
 - `qt6ct`
 - `qt5-wayland`
 - `qt6-wayland`
+- `nwg-look`
