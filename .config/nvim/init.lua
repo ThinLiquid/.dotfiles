@@ -22,6 +22,13 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 
-vim.diagnostic.config({ virtual_text = true })
+vim.diagnostic.config({
+    virtual_text = true,
+    signs = true,
+    update_in_insert = true,
+    underline = true,
+    severity_sort = false,
+    float = true,
+  })
 
 require("config.lazy")

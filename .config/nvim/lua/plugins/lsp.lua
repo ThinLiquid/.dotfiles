@@ -16,6 +16,7 @@ return {
 				ts_ls = {},
 				astro = {},
 				cssls = {},
+        eslint = {}
 			},
       inlay_hints = { enabled = true },
 		},
@@ -45,8 +46,8 @@ return {
 				formatters_by_ft = {
 					lua = { "stylua" },
 					python = { "isort", "black" },
-					javascript = { "prettierd", "prettier", stop_after_first = true },
-					typescript = { "prettierd", "prettier", stop_after_first = true },
+					javascript = { "eslint", "prettierd", "prettier", stop_after_first = true },
+					typescript = { "eslint", "prettierd", "prettier", stop_after_first = true },
 					css = { "prettierd", "prettier", stop_after_first = true },
 				},
 			})
