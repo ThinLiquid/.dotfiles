@@ -27,4 +27,9 @@ return {
 			{ "<leader>,", "<cmd>MarkdownPreviewToggle<cr>", desc = "Toggle the markdown browser preview" },
 		},
 	},
+  {
+    'vyfor/cord.nvim',
+    build = ':Cord update',
+    -- opts = {}
+  }
 }

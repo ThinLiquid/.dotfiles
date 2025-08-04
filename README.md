@@ -20,6 +20,7 @@ using my own "ekitai" color scheme
 - `blueman`
 - `xdg-desktop-portal-gtk`
 - `xdg-desktop-portal-hyprland`
+- `nwg-bar`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
