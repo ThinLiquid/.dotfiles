@@ -35,7 +35,7 @@ using my own "ekitai" color scheme
 - `neovim`
     - `npm`
     - `nodejs`
-- `thorium-browser-bin`
+- `librewolf`
 ### fonts
 - `Geist` (`ttf-geist`)
 - `Geist Mono Nerd Font` (`otf-geist-mono-nerd`)
