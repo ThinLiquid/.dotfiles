@@ -35,7 +35,7 @@ using my own "ekitai" color scheme
 - `neovim`
     - `npm`
     - `nodejs`
-- `librewolf`
+- `zen-browser-bin`
 ### fonts
 - `Geist` (`ttf-geist`)
 - `Geist Mono Nerd Font` (`otf-geist-mono-nerd`)
