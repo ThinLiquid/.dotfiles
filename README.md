@@ -14,7 +14,7 @@ using my own "ekitai" color scheme
 - `xfce-polkit`
 - `rofimoji`
 - `gtklock`
-- `hyprpaper`
+- `grimblast`
 - `swaync`
 - `network-manager-applet`
 - `blueman`
@@ -31,6 +31,9 @@ using my own "ekitai" color scheme
     - `xarchiver`
     - `thunar-archive-plugin`
     - `gvfs`
+    - `tumbler`
+        - `tumbler-extra-thumbnailers`
+        - `ffmpegthumbnailer`
 - `kitty`
 - `neovim`
     - `npm`
