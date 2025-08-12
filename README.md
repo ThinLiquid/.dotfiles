@@ -14,8 +14,13 @@ using my own "ekitai" color scheme
 - `xfce-polkit`
 - `rofimoji`
 - `gtklock`
+<<<<<<< HEAD
 - `hyprpaper`
 - `dunst`
+=======
+- `grimblast`
+- `swaync`
+>>>>>>> eca1feb942a543f0ac5bf92d5dbe0b522c7f5808
 - `network-manager-applet`
 - `blueman`
 - `xdg-desktop-portal-gtk`
@@ -31,6 +36,9 @@ using my own "ekitai" color scheme
     - `xarchiver`
     - `thunar-archive-plugin`
     - `gvfs`
+    - `tumbler`
+        - `tumbler-extra-thumbnailers`
+        - `ffmpegthumbnailer`
 - `kitty`
 - `neovim`
     - `npm`
