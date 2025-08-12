@@ -15,7 +15,7 @@ using my own "ekitai" color scheme
 - `rofimoji`
 - `gtklock`
 - `hyprpaper`
-- `swaync`
+- `dunst`
 - `network-manager-applet`
 - `blueman`
 - `xdg-desktop-portal-gtk`
