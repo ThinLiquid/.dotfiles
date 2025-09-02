@@ -10,9 +10,8 @@ using my own "ekitai" color scheme
 - `hyprshot`
     - `hyprpicker`
 - `syshud`
-- `cliphist`
 - `xfce-polkit`
-- `rofimoji`
+- `vicinae-bin`
 - `gtklock`
 - `hyprpaper`
 - `dunst`
