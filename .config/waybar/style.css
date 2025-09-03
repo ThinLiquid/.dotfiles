@@ -25,7 +25,7 @@
   color: @foreground;
   min-height: 24px;
   font-weight: bold;
-  border-radius: 2.5px;
+  border-radius: 0px;
 }
 
 #workspaces button * {
@@ -59,7 +59,7 @@
     padding: 8px 0;
     background: @background;
     min-width: 24px;
-    border-radius: 5px;
+    border-radius: 0px;
     border: 2px solid @background;
 }
 
