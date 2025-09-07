@@ -21,6 +21,7 @@ using my own "ekitai" color scheme
 - `xdg-desktop-portal-gtk`
 - `xdg-desktop-portal-hyprland`
 - `nwg-bar`
+- `tailscale-systray`
 ### shell
 - `zsh`
 - `zsh-autosuggestions`
