@@ -24,7 +24,7 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    width = (300, 350)
 
     # The maximum height of a single notification, excluding the frame.
     height = 300
@@ -290,7 +290,7 @@
 
 
 [urgency_low]
-    background = "#040A12"
+    background = "#000000"
     foreground = "#94989D"
     frame_color = "#1B222A"
     timeout = 5
@@ -298,7 +298,7 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#040A12"
+    background = "#000000"
     foreground = "#DADBDD"
     frame_color = "#1B222A"
     timeout = 10
